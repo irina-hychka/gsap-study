@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <section class="section hero">
+                <h1 class="title">
+                    Welcome <br> HOME
+                </h1>
+                <div class="colors-wrapper">
+                    <img class="image" src="./images/gax_colors.jpeg" alt="colors">
+                </div>
+            </section>
+            <section class="section welcome">
+                <div class="image-outer">
+                    <img class="image" src="./images/macro-trinidad-gax-welcome.jpeg" alt="welcome">
+                </div>
+                <div id="jsFilter" class="gaxFilter"></div>
+                <p id="jsWelcomeText" class="italic welcome" style="display: none;">
+                    <span>Bienvenue dans notre</span>
+                    <span>agence créative.</span>
+                </p>
+                <div id="jsWeCreate" class="weCreate" style="display: none;">
+                    <img class="weCreateFilter" src="./images/we_create_filter.svg" alt="At GAX, We Create">
+                    <div class="content">
+                        <p class="italic">
+                            <span>Avec passion et style,</span>
+                            <span>nous créons votre communication visuelle</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
